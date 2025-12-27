@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Ali Ashraf</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-image">
+                <img src="./img/1761589030728.jpeg" alt="Your Profile" class="profile-pic">
+            </div>
+            <div class="hero-text">
+                <h1>Hi, I'm Ali Ashraf</h1>
+                <p class="subtitle">Frontend Developer</p>
+                <p class="description">
+                    Crafting beautiful, responsive, and user-friendly web experiences.
+                    Specializing in React, JavaScript, and modern web technologies.
+                </p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                I'm a passionate frontend developer with expertise in building scalable, performant web applications.
+                With years of experience, I've worked with startups and enterprises to deliver exceptional digital
+                experiences.
+            </p>
+            <p>
+                My journey in web development started with a curiosity about how websites work.
+                Today, I'm proficient in modern JavaScript frameworks and best practices for web development.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Skills & Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>HTML5 & CSS3</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>React & Next.js</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>Tools & Libraries</h3>
+                    <ul>
+                        <li>Git & GitHub</li>
+                        <li>TypeScript</li>
+                        <li>Webpack</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>Design & UX</h3>
+                    <ul>
+                        <li>Responsive Design</li>
+                        <li>UI/UX Principles</li>
+                        <li>Figma</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="./img/Screenshot (117).png" alt="Project 1">
+                    <h3>E-Commerce Platform</h3>
+                    <p>A full-featured e-commerce platform built with React and Node.js with payment integration.</p>
+                    <div class="tech-tags">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                    </div>
+                    <a href="#" class="project-link">View Project →</a>
+                </div>
+
+                <div class="project-card">
+                    <img src="./img/Screenshot (115).png" alt="Project 2">
+                    <h3>Task Management App</h3>
+                    <p>A real-time task management application with collaborative features for teams.</p>
+                    <div class="tech-tags">
+                        <span>React</span>
+                        <span>Firebase</span>
+                        <span>Tailwind</span>
+                    </div>
+                    <a href="#" class="project-link">View Project →</a>
+                </div>
+
+                <div class="project-card">
+                    <img src="./img/original-4556a028d4c549717c922d095f3e1401.webp" alt="Project 3">
+                    <h3>Weather Dashboard</h3>
+                    <p>An interactive weather dashboard with real-time data and location-based forecasts.</p>
+                    <div class="tech-tags">
+                        <span>JavaScript</span>
+                        <span>API</span>
+                        <span>CSS3</span>
+                    </div>
+                    <a href="#" class="project-link">View Project →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Let's Connect</h2>
+            <p class="contact-intro">
+                I'm always interested in hearing about new projects and opportunities.
+            </p>
+            <form class="contact-form" id="contactForm">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+            <div class="social-links">
+                <a href="https://wa.me/923278264078" target="_blank" title="Whatsapp">Whatsapp</a>
+                <a href="https://github.com/aliashraf188" target="_blank" title="GitHub">GitHub</a>
+                <a href="https://www.linkedin.com/in/ali-ashraf-701284259" target="_blank" title="LinkedIn">LinkedIn</a>
+                <a href="https://www.facebook.com/aliashra12" target="_blank" title="Twitter">Facebook</a>
+                <a href="mailto:aliashra2008@gmail.com" target="_blank" title="Email">Email</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Ali Ashraf. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
